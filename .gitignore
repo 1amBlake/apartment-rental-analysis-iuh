@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#Project
+# Original and generated datasets
+/data/raw/
+/data/interim/
+/data/processed/
+
+# Downloaded dataset archives
+*.zip
+*.tar
+*.tar.gz
