@@ -224,6 +224,7 @@ __marimo__/
 /data/raw/
 /data/interim/
 /data/processed/
+/document/hiddenText.txt
 
 # Downloaded dataset archives
 *.zip
