@@ -1,0 +1,103 @@
+Mẹo check:
+    Mục tiêu
+    Bạn muốn kiểm tra hoặc trả lời câu hỏi gì?
+
+
+
+    Phương pháp và thực hiện
+    Vì sao chọn phương pháp này? Code, công thức và các bước thực hiện.
+
+
+
+    Kết quả
+    Bảng số liệu, biểu đồ, chỉ số đánh giá mô hình.
+
+
+
+    Nhận xét
+    Kết quả có ý nghĩa gì, có trả lời được câu hỏi nghiên cứu không và còn hạn chế nào?
+
+    heading
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+    định dạng
+**Bold**	Bold
+*Italic*	Italic
+***Bold Italic***	Bold Italic
+~~Strikethrough~~	Strikethrough
+`pandas`	pandas
+
+    danh sách
+- Pandas
+- NumPy
+- Matplotlib
+  - Seaborn
+
+1. Data Loading
+2. Data Cleaning
+3. EDA
+4. Machine Learning
+
+    Other
+Liên kết	[FMA Dataset](https://archive.ics.uci.edu/dataset/386/fma+a+dataset+for+music+analysis)
+Hình ảnh	![ERD](../reports/figures/erd.png)
+Đường phân cách	---
+Trích dẫn	> Đây là một ghi chú quan trọng.
+
+    Code
+Sử dụng `pd.read_csv()` để đọc dữ liệu.
+
+    Code nhiều dòng
+<escape>```python
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+print(df.head())
+```</escape>
+
+    Bảng markdown
+
+| Dataset | Rows | Columns |
+|:---|---:|---:|
+| Tracks | 106574 | 52 |
+| Features | 106574 | 518 |
+| Echonest | 13129 | 249 |
+| Genres | 163 | 5 |
+
+    Căn lề
+:--- căn trái.
+
+
+
+---: căn phải.
+
+
+
+:---: căn giữa.
+
+    Công thức toán học bằng Latex
+Trung bình được ký hiệu là $\bar{x}$.
+
+{String.raw`$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i
+$$`}
+
+    Checkbox
+- [x] Data Loading
+- [x] Data Understanding
+- [ ] Data Cleaning
+- [ ] EDA
+- [ ] Machine Learning
+
+    Phím tắt
+Chuyển cell thành Markdown	Esc → M
+Chuyển cell thành Code	Esc → Y
+Chạy cell và chuyển xuống	Shift + Enter
+Chạy cell tại chỗ	Ctrl + Enter
+Thêm cell phía trên	Esc → A
+Thêm cell phía dưới	Esc → B
